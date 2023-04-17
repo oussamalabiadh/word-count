@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="keywords" content="word count" />
+  <meta name="author" content="OUSSAMA LABIADH">
+
+    <title>Word Count</title>
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="container d-flex flex-column align-items-center gap-5">
+      <h1>Word Count</h1>
+      <textarea
+        placeholder="Enter your text here"
+        class="form-control"
+        id="textField"
+      ></textarea>
+
+      <div class="result">
+        <h3 class="fs-5">Characters: <span id="characters">0</span></h3>
+        <h3 class="fs-5">Words: <span id="words">0</span></h3>
+        <h3 class="fs-5">Sentences: <span id="sentences">0</span></h3>
+        <h3 class="fs-5">Paragraphs: <span id="paragraphs">0</span></h3>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

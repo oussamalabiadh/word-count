@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: poppins;
+  color: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-image: url(../bg.jpeg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+
+}
+
+h1 {
+  font-family: "IBM Plex Serif", serif;
+}
+
+textarea.form-control {
+  max-width: 600px;
+  min-height: 150px;
+  max-height: 300px;
+}
+
+.form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
